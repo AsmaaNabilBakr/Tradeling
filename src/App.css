@@ -1,0 +1,42 @@
+.appBG {
+  background-image: url("./Assets/Banner_7c6ceef7ba.webp");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+
+.App {
+  display: flex !important;
+  flex-flow: row;
+  text-align: center;
+  padding: 48px 0;
+}
+
+.section {
+  width: 50% !important;
+  height: 90vh;
+}
+.form {
+  background: #fff;
+  padding: 24px 0;
+}
+.form .field {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+}
+.form .field label{
+  margin-bottom: 10px;
+}
+.field-input {
+  width: 100%;
+}
+
+.logistics {
+  text-align: left;
+  color: #fff;
+}
+
+.logistics .message {
+  line-height: 25px;
+}
